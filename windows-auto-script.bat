@@ -16,6 +16,7 @@ choco install vim --params "'/NoDesktopShortcuts'" -y >> C:\install_log.txt 2>&1
 choco install chocolateygui -y >> C:\install_log.txt 2>&1
 choco install git.install -y >> C:\install_log.txt 2>&1
 choco install pandoc -y >> C:\install_log.txt 2>&1
+choco install fastfetch -y >> C:\install_log.txt 2>&1
 
 :vmwareworkstation
 set /P INPUT=Would you like to install WMWare Workstation (restart required) (Y/N)?
